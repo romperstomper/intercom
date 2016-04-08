@@ -73,5 +73,6 @@ class TestAWeblogHelper(unittest.TestCase):
     result = weblog_helper.parselog(self.testcidr1, logfile=LOGFILE1)
     self.assertNotEqual(expected, result)
 
+
 if __name__ == '__main__':
   unittest.main()
